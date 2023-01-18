@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main_sheet.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/reservation_costumer.css">
+    <link rel="stylesheet" href="./styles/footer.css">    
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.theme.min.css">
+    <link rel="font" href="./fonts/JuliusSansOne-Regular.ttf">
+    <link rel="font" href="./fonts/Comfortaa-VariableFont_wght.ttf"> 
+    <!--IMPORT JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--IMPORT DATEPICKER UI (CALENDAR)-->
+    <script src="./scripts/jquery-ui.min.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/reservations_costumer.js"></script>
+    <title>Capriccio | Reservations</title>
+</head>
+
+
+<body>
+
+    <!--Header with Navbar present on nearly every page-->
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li class="nav_link"><a href="aboutUs.html">About Us</a></li>
+                <li class="nav_link"><a href="menu.html">Menu</a></li>
+                <li class ="nav_link"><a href="index.html"><img src="./images/logo.png" alt="capriccio_logo"></a></li>    
+                <li class="nav_link"><a href="reservations_costumer.html">Make a reservation</a></li>
+                <li class="nav_link"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <span class="log_in">
+            <img src="./images/logInImage.png" alt="log_in_image">
+            <a href="./logIn.html">Log In</a>
+        </span>
+    </header>
+    
+    <!--Main content of the webpage-->
+    
+    <main>
+        <section id="title_section">
+            <h1>Make a Reservation</h1>
+            <p>
+                Seating waiting time? Why wait when you can claim your seats in advance? Enter your information below so that you can enjoy our delicious dishes as fresh as they come!
+            </p>
+            <p>
+                Just make a reservation and walk in at your desired time!
+            </p>
+        </section>
+        <section id="form_section">
+            <h2>Complete this form to save your spot</h2>
+            <form action="#">
+                <fieldset id="contact_information">
+                    <legend>Your Contact Information</legend>
+                    <div class="input_pair">
+                        <label for="name">Party Name: </label>
+                        <input type="text" name='name' id="name" required>
+                    </div>
+                    <div class="input_pair">
+                        <label for="phone_number">Phone Number: </label>
+                        <input type="tel" name='phone_number' id="phone_number" required placeholder="xxx-xxx-xxxx">
+                    </div>
+                    <div class="input_pair">
+                        <label for="email">Email</label>
+                        <input type="email" name='email' id="email" placeholder="xxxxxx@xxxx.com">        
+                    </div>
+                </fieldset>
+                <fieldset id="time_information">
+                    <legend>When are you coming?</legend>
+                    <!--Datepicker widget-->
+                    <div class="input_pair">
+                        <label for="datepicker">Arrival date</label>
+                        <label><input type="text" id="datepicker" name='datepicker' readonly></label>
+                    </div>                    
+                    <div class="input_pair">
+                        <label for="time">Arrival time</label>
+                        <select name="time" id="time" required>
+                            <option value="12pm">12pm</option>
+                            <option value="1pm">1pm</option>
+                            <option value="2pm">2pm</option>
+                            <option value="3pm">3pm</option>
+                            <option value="4pm">4pm</option>
+                            <option value="5pm">5pm</option>
+                            <option value="6pm">6pm</option>
+                            <option value="7pm">7pm</option>
+                            <option value="8pm">8pm</option>
+                        </select>
+                    </div>
+                    <div class="input_pair">
+                        <label for="num_people">Number of People: </label>
+                        <input type="number" name='num_people' id="num_people" min="1" max="12" required>
+                    </div>
+                </fieldset>
+                <input id='submit_btn' type="submit" value="Make Reservation">
+            </form>
+        </section>
+    </main>
+
+  <!---->  <!--Footer present on nearly every page-->
+    <footer>
+        <div class="container" >
+            <section id="foot_info_sec">
+                <ul>
+                    <li>(704) 596-5454</li>
+                    <li>9611 Brookdale Dr, Charlotte, NC 28215</li>
+                    <li>capricciositalianrestaurant@gmail.com</li>
+                    <li><img src="./images/logo.png" alt="logo_image"></li>
+                </ul>
+            </section>
+            <section id="foot_hours_sec">
+                <h3>Opening Hours</h3>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

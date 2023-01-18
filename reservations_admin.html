@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.min.css">
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="./styles/jqueryui/jquery-ui.theme.min.css">
+    <link rel="stylesheet" href="./styles/reservation_admin.css">
+    <!--IMPORT JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--IMPORT JQUERY UI AND WIDGETS-->
+    <script src="./scripts/jquery-ui.min.js"></script>
+    <script src="./scripts/reservations_admin.js"></script>
+    <title>Capriccio | Admin | Reservations</title>
+    
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">Back Home</a>
+    </header>
+    <main>        
+        <h1>Reservations</h1>
+        <h2>Total Reservations: <span id="total_number_reservations"></span></h2>
+        <div id='tabs_container'>
+            <div id="tabs">
+                <ul>
+                    <li><a href="#today_reservation">Today</a></li>
+                    <li><a href="#tomorrow_reservation">Tomorrow</a></li>
+                    <li><a href="#all_reservation">All</a></li>
+                </ul>
+                <div id="today_reservation">
+                </div>
+                <div id="tomorrow_reservation">
+                    
+                </div>
+                <div id="all_reservation">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

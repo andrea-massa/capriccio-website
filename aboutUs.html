@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main_sheet.css">
+    <link rel="stylesheet" href="./styles/aboutUs.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">    
+    <link rel="font" href="./fonts/JuliusSansOne-Regular.ttf">
+    <link rel="font" href="./fonts/Comfortaa-VariableFont_wght.ttf"> 
+    <link rel="stylesheet" href="./fonts/Cagliostro-Regular.ttf">
+    <!--IMPORT JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/about_us.js"></script>
+    <title>Capriccio | About Us</title>
+</head>
+
+
+<body>
+
+    <!--Header with Navbar present on nearly every page-->
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li class="nav_link"><a href="aboutUs.html">About Us</a></li>
+                <li class="nav_link"><a href="menu.html">Menu</a></li>
+                <li class ="nav_link"><a href="index.html"><img src="./images/logo.png" alt="capriccio_logo"></a></li>    
+                <li class="nav_link"><a href="reservations_costumer.html">Make a reservation</a></li>
+                <li class="nav_link"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <span class="log_in">
+            <img src="./images/logInImage.png" alt="log_in_image">
+            <a href="./logIn.html">Log In</a>
+        </span>
+    </header>
+    
+
+    <!--Main content of the webpage-->
+    
+    <main>
+        <h1>About Us</h1>
+            <section id="history">
+            <div class=" para_container">
+                <h2>Our History</h2>
+                <p>
+                    In the eighties, two cousins from a little town in Italy moved to the Unites states. 
+                </p>
+                <p>
+                    One of them went to New Jersey and the other to Connecticut, parting ways.
+                </p>
+                <p>
+                    After 20 years of experience, they decided to partner up and open Capriccio here in Charlotte.
+                </p>
+                <p>
+                    Ever since 2005 Capriccio has been providing its costumers with authentic Italian food.
+                </p>
+            </div>
+            <div class="image_container">
+                <img src="./images/monte_di_procida.jpg" alt="charlotte_picture">
+            </div>
+            </section>
+
+            <section id="cuisine">
+            <div class="image_container">
+                <img src="./images/pizza_margherita.jpeg" alt="cuisine_picture">
+            </div>
+            <div class="para_container">
+                <h2>Our Cuisine</h2>
+                <p>
+                    Neapolitan Cuisine comes from the city of Naples in Southern Italy. 
+                </p>
+                <p>
+                    During the 80s, Neapolitan cuisine and Sicilian cuisine started becoming popular in New York. 
+                </p>
+                <p>
+                    New dishes started to emerge as well as the famous 'New York Style Pizza'.
+                </p>
+                <p>
+                    We take those dishes and their original flavors from Italy to New York and from New York to Charlotte!
+                </p>
+            </div>
+            </section>
+
+            <section id='costumers_reviews'>
+                <div class="para_container hidden" id="reviews_container">
+                    <h2>Our Costumers</h2>
+                </div>
+                <div class="image_container">
+                    <button id="getReviewsBtn">See What Costumers Say</button>
+                </div>
+            </section>
+    </main>
+
+  <!---->  <!--Footer present on nearly every page-->
+    <footer>
+        <div class="container" >
+            <section id="foot_info_sec">
+                <ul>
+                    <li>(704) 596-5454</li>
+                    <li>9611 Brookdale Dr, Charlotte, NC 28215</li>
+                    <li>capricciositalianrestaurant@gmail.com</li>
+                    <li><img src="./images/logo.png" alt="logo_image"></li>
+                </ul>
+            </section>
+            <section id="foot_hours_sec">
+                <h3>Opening Hours</h3>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

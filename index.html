@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main_sheet.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/footer.css">    
+    <link rel="font" href="./fonts/JuliusSansOne-Regular.ttf">
+    <link rel="font" href="./fonts/Comfortaa-VariableFont_wght.ttf"> 
+    <!--IMPORT JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/index.js"></script>
+    <!--IMPORTING THE SLIDER PLUGIN-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>Capriccio | Homepage</title>
+</head>
+
+
+<body>
+
+    <!--Header with Navbar present on nearly every page-->
+    <header>
+        <nav>
+            <ul class="nav_links">
+                <li class="nav_link"><a href="aboutUs.html">About Us</a></li>
+                <li class="nav_link"><a href="menu.html">Menu</a></li>
+                <li class ="nav_link"><a href="index.html"><img src="./images/logo.png" alt="capriccio_logo"></a></li>    
+                <li class="nav_link"><a href="reservations_costumer.html">Make a reservation</a></li>
+                <li class="nav_link"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <span class="log_in">
+            <img src="./images/logInImage.png" alt="log_in_image">
+            <a href="./logIn.html">Log In</a>
+        </span>
+    </header>
+    
+    <!--Main content of the webpage-->
+    
+    <main>
+        <section id="image_carousel_container">
+            <div class="slider">
+                <div><img src="./images/monte_di_procida.jpg"></div>
+                <div><img src="./images/pizza_margherita.jpeg"></div>
+                <div><img src="./images/calamari.PNG"></div>
+                <div><img src="./images/salad.PNG"></div>
+                <div><img src="./images/restaurant_outside.PNG"></div>
+            </div>
+        </section>
+        <section id="button_container">
+            <a href="menu.html" class="button">
+                <span>Menu</span>
+            </a>
+            <a href="reservations_costumer.html" class="button hovered">
+                <span>Make a Reservation</span>
+            </a>
+        </section>
+    </main>
+
+  <!---->  <!--Footer present on nearly every page-->
+    <footer>
+        <div class="container" >
+            <section id="foot_info_sec">
+                <ul>
+                    <li>(704) 596-5454</li>
+                    <li>9611 Brookdale Dr, Charlotte, NC 28215</li>
+                    <li>capricciositalianrestaurant@gmail.com</li>
+                    <li><img src="./images/logo.png" alt="logo_image"></li>
+                </ul>
+            </section>
+            <section id="foot_hours_sec">
+                <h3>Opening Hours</h3>
+                <table>
+                    <tr>
+                        <th>Monday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>11:00am - 9:30pm</td>
+                    </tr>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>11:00am - 8:30pm</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>
