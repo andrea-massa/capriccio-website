@@ -1,0 +1,101 @@
+@font-face{
+    font-family: Calgiostro;
+    src: url(../fonts/Cagliostro-Regular.ttf);
+}
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf)
+}
+h1{    
+    text-align: center;
+    font-family: Calgiostro;
+    font-size: 4vw;
+    font-weight: bold;
+    color: #F1AD88;
+}
+#title_section p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2.5vh;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 1.5vw;
+    color: #F1AD88;
+}
+#title_section p:last-child{
+    margin-bottom: 10vh;
+}
+h2{
+    text-align: center;
+    font-family: Calgiostro;
+    font-size: 3.5vw;
+    font-weight: 500;
+    color: #F1AD88;
+}
+form{
+    padding-top: 2.5vh;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F1AD88;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vh;
+    padding-top: 2.5vh;
+    border: 2px groove #793937;
+    border-radius: 40px;
+}
+legend{
+    font-family: Calgiostro;
+    font-size: 2.5vw;
+    font-weight: 400;
+    color: #793937;
+}
+.input_pair{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+label{
+    font-family: Comfortaa;
+    height: 4vh;
+    font-size: 1.5vw;
+    color: #793937;
+}
+input, select{
+    width: 50%;
+    height: 4vh;
+    font-family: Comfortaa;
+    font-size: 1.5vw;
+    color: #793937;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#num_people{
+    margin-right: 37.5%;    
+    text-align: center;
+    width: 10%;
+}
+input[type=submit]{
+    margin: auto;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    height: 10vh;
+    width: 40%;
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 2.5vw;
+    background-color: #793937;
+    color: #F1AD88;
+}

@@ -1,0 +1,49 @@
+@font-face{
+    font-family: JuliusSansOne;
+    src: url(../fonts/JuliusSansOne-Regular.ttf);
+}
+
+main{    
+    margin-top: 5vh;
+    width: 100%;
+    height: 100vh;
+}
+#image_carousel_container{    
+    width: 100%;
+    height: 70%;
+}
+.slider{
+    text-align: center;
+}
+.slider img{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+#button_container{
+    margin: auto;    
+    width: 80%;
+    height: 25%;
+    display: flex;    
+    justify-content: space-evenly;
+}
+.button{    
+    position: relative;
+    top: -5vh;    
+    width: 25%;
+    height: 50%;    
+    background-color: #FC766A;
+    border: 1px solid #793937;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;            
+    text-align: center;     
+    text-decoration: none;    
+}
+.button span{    
+    position: relative;
+    top: 35%;
+    font-family: 'Comfortaa';  
+    font-weight: bold;              
+    font-size: 1.6vw;         
+    color: #793937;
+}

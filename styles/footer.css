@@ -1,0 +1,30 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+footer{
+    background-color: #F1AD88;    
+    font-family: Comfortaa;
+    width: 100%;
+    z-index: 5;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer section{
+    margin: auto;    
+    color: #793937;
+    font-size: 0.8vw;
+}
+#foot_info_sec{
+    text-align: center;
+
+}
+#foot_info_sec ul{
+    list-style: none;
+}
+#foot_info_sec ul img{
+    width: 4vw;
+    opacity: 0.5;
+}

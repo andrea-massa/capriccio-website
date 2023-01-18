@@ -1,0 +1,88 @@
+@font-face{
+    font-family: Cagliostro;
+    src: url(../fonts/Cagliostro-Regular.ttf);
+}
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: #FC766A;
+    font-family: Cagliostro;    
+    font-size: 4vw;
+    font-weight: bold;
+}
+.menu_container{            
+    display: flex;
+    flex-direction: column;    
+}
+.menu_section{                
+    font-family: Comfortaa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    margin-top: 5vh;    
+    padding-top: 5vh
+}
+.menu_section:nth-child(odd){
+    color: #FC766A;
+}
+.menu_section:nth-child(even){
+    background-color: #FC766A;
+    color: #793937;
+}
+.menu_section:nth-child(odd) .dish_container{
+    border-bottom: solid #FC766A;
+}
+.menu_section:nth-child(even) .dish_container{
+    border-bottom: solid #793937;
+}
+.menu_section h2{    
+    width: 95%;
+    margin: auto;        
+    text-align: center;
+    font-size: 2.6vw;
+}
+.section_description{
+    width: 80%;
+    margin: auto;
+    text-align: center;    
+}
+.dish_container{
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;    
+    font-size: 1.6vw;
+    flex: 0 1 30%;    
+}
+.dish_name{
+    margin-left: 1vw;
+    margin-right: 1vw;    
+    font-weight: bold;
+}
+.dish_decription, .dish_description{
+    margin-left: 1vw;
+    margin-right: 1vw;    
+    font-weight: normal;
+}
+.dish_price{
+    margin-left: 1vw;
+    margin-right: 1vw;    
+    text-align: right;
+    font-weight: lighter;
+}
+.toppings{
+    margin-left: 1vw;
+    margin-right: 1vw;    
+    font-weight: normal;
+}
+.pizza_prices, .topping_prices{
+    list-style: none;    
+    text-align: right;
+}
+.pizza_dish_container .toppings{
+    margin-top: 5px;
+}

@@ -1,0 +1,45 @@
+@font-face{
+    font-family: Calgiostro;
+    src: url(../fonts/Cagliostro-Regular.ttf);
+}
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf)
+}
+h1{
+    text-align: center;
+    font-family: Calgiostro;
+    color: #FC766A;
+    font-size: 4vw;
+}
+.container{ 
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 10vh;  
+    margin-top: 5vh;   
+}
+section{    
+    width: 20%;  
+    height: 100%;
+    text-align: center;
+}
+.img_container{   
+    text-align: center;
+}
+.contact_img{
+    width: 10vw;
+}
+#phone_img{
+    width: 6vw;
+    height: 14vh;
+}
+h2{
+    font-family: Comfortaa;
+    color: #FC766A;
+    font-size: 2.5vw;
+}
+p, address{
+    font-family: Comfortaa;
+    color: #FC766A;
+    font-size: 1.5vw;
+}

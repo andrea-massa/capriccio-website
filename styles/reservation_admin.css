@@ -1,0 +1,68 @@
+@font-face{
+    font-family: Comfortaa;
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf)
+}
+@font-face{
+    font-family: Calgiostro;
+    src: url(../fonts/Cagliostro-Regular.ttf);
+}
+body{
+    margin: 0;
+    background-color:bisque;
+}
+main{        
+    margin-top: 5vh;
+    height: 80%;
+}
+h1{
+    text-align: center;
+    font-family: Calgiostro;
+    font-size: 4vw;
+    font-weight: bold;    
+    color: #793937;
+}
+h2{
+    text-align: center;
+    font-family: Comfortaa;
+    font-size: 2vw;
+    font-weight: bold;    
+    color: #793937;
+}
+#tabs{
+    margin: auto;
+    width: 80%;
+}
+#tabs ul{
+    display: flex;
+    justify-content: space-between;
+    height: 7.5vh;
+    background-color: #793937;
+    font-size: 1.5vw;
+    font-family: Comfortaa;
+}
+#tabs ul li{
+    border-radius: 10px;
+    width: 30%;
+    height: 70%;
+    color: #793937;
+    box-shadow: 0px px 4px rgba(0, 0, 0, 0.25);;
+}
+#tabs ul li a{
+    width: 90%;
+    height: 70%;
+    text-align: center;
+}
+.reservation{
+    border-bottom: solid #793937;
+    font-size: 1vw;
+    font-family: Comfortaa;
+}
+.reservation > p{
+    position: relative;
+    left: 5vw;
+}
+.reservation > p:first-child{
+    font-weight: bolder;
+    text-decoration: underline;
+    left: 2vw;
+}
